@@ -1,0 +1,59 @@
+
+* { 
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: hsl(212, 45%, 89%);
+}
+.section-container {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.qr-code img {
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 300px;
+}
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    color: hsl(218, 44%, 22%);
+
+}
+p {
+    color: hsl(220, 15%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.attribution {
+
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
